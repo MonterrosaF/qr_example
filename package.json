@@ -19,6 +19,12 @@
     "@angular/platform-browser": "~9.1.7",
     "@angular/platform-browser-dynamic": "~9.1.7",
     "@angular/router": "~9.1.7",
+    "@nealhamilton/ngx-qr-reader": "^0.1.4",
+    "@zxing/ngx-scanner": "^3.0.0",
+    "angular2-qrscanner": "^1.0.7",
+    "html5-qrcode": "^1.0.9",
+    "ng2-qrcode-reader": "0.0.1",
+    "qr-code-scanner": "^1.0.7",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
