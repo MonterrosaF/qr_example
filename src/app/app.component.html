@@ -1,1 +1,10 @@
-
+tests
+<div *ngIf="mostrar">
+  <h1>los datos son: {{datos}}</h1>
+</div>
+<zxing-scanner
+  #scanner
+  (scanSuccess)="scanSuccessHandler($event)"
+  (camerasFound)="camerasFoundHandler($event)"
+  (camerasNotFound)="camerasNotFoundHandler($event)"
+></zxing-scanner>
